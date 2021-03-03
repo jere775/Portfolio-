@@ -15,9 +15,14 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(file:///Users/judithespinoza/Desktop/Screen%20Shot%202021-03-02%20at%205.42.40%20PM.png) center / cover'}} ></CardTitle> */}
+            <img
+            src="/img/Paris.png"
+            alt="Gateway"
+            style={{height: '175px'}}
+             />
             <CardText>
-            Gateway Project
+            Gateway Project: project about Paris using HTML and CSS.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -31,14 +36,19 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Semantic HTML Revision to Gateway Project</CardTitle> */}
+            <img
+            src="/img/Paris.png"
+            alt="Gateway"
+            style={{height: '175px'}}
+             />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            Semantic HTML Revision to Gateway Project: Part 2 of Gateway project.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/">GitHub</Button>
+              {/* <Button colored>Visual Studio</Button> */}
+              <Button colored href="https://naughty-pasteur-ff6519.netlify.app">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -46,7 +56,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
+          {/* <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -59,7 +69,7 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
-          </Card>
+          </Card> */}
         </div>
 
 
