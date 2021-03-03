@@ -31,9 +31,9 @@ class App extends Component {
             <Main/>
         </Content>
     </Layout>
-    <footer>
+    {/* <footer>
       Copyright &copy; 2021 | JE Portfolio
-    </footer>
+    </footer> */}
 </div>
 
     );

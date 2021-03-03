@@ -17,7 +17,7 @@ class Projects extends Component {
           <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            Gateway Project
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>

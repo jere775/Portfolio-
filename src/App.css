@@ -143,9 +143,10 @@
 }
 
 /*resume*/
-.resume{
+/* .resume{
   background: linear-gradient(to right, #37D5D6, #36096D);
-}
+} */
+
 .resume-one{
 /* margin:350px 343px; */
 margin-bottom:70%;
@@ -163,7 +164,7 @@ margin-bottom:70%;
 }
 
 .aboutme{
-  text-align: center;
+  text-align:center;
   color:white;
 }
 
@@ -181,4 +182,8 @@ margin-bottom:70%;
 .about{
   color:white;
   background: linear-gradient(to right, #37D5D6, #36096D); 
+}
+
+.mei{
+  border-radius: 10px;
 }

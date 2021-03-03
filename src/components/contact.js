@@ -14,7 +14,7 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>HOPE TO HEAR FROM YOU SOON !</p>
 
           </Cell>
           <Cell col={6}>
@@ -47,7 +47,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{color: 'white', fontSize: '25px', fontFamily: 'Anton'}}>
                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                  www.linkedin.com/in/judith-e-espinoza
+                  in/judith-e-espinoza
                   </ListItemContent>
                 </ListItem>
 
