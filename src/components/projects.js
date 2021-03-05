@@ -22,12 +22,11 @@ class Projects extends Component {
             style={{height: '175px'}}
              />
             <CardText>
-            Gateway Project: project about Paris using HTML and CSS.
+            Gateway Project: This is my very first project on Paris using HTML and CSS.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/jere775/gateway-project.git">GitHub</Button>
+              <Button colored href="https://epic-joliot-db0f12.netlify.app">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -39,14 +38,14 @@ class Projects extends Component {
             {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Semantic HTML Revision to Gateway Project</CardTitle> */}
             <img
             src="/img/Paris.png"
-            alt="Gateway"
+            alt="revision project"
             style={{height: '175px'}}
              />
             <CardText>
             Semantic HTML Revision to Gateway Project: Part 2 of Gateway project.
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/">GitHub</Button>
+              <Button colored href="https://github.com/jere775/first-project.git">GitHub</Button>
               {/* <Button colored>Visual Studio</Button> */}
               <Button colored href="https://naughty-pasteur-ff6519.netlify.app">Live Demo</Button>
             </CardActions>
@@ -56,20 +55,45 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          {/* <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+          <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
+            {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle> */}
+            <img
+            src="/img/ecomm.png"
+            alt="recommerce"
+            style={{height: '175px'}}
+             />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Ecommerce: My first Ecommerce project about anime and subscriptor using HTML and CSS.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/jere775/ecomm.git">GitHub</Button>
+              {/* <Button colored>CodePen</Button> */}
+              <Button colored href="https://amazing-archimedes-df31e7.netlify.app/">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
-          </Card> */}
+          </Card>
+   {/* Project 4 */}
+          <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
+            {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle> */}
+            <img
+            src="/img/reserapp.png"
+            alt="reservation-app"
+            style={{height: '175px'}}
+             />
+            <CardText>
+            A reservation app that using HTML and CSS to create a simple form that looks clean.
+            </CardText>
+            <CardActions border>
+              <Button colored href="https://github.com/jere775/reservePage.git">GitHub</Button>
+              {/* <Button colored>CodePen</Button> */}
+              <Button colored href="https://stoic-wescoff-a27e85.netlify.app/">Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
 
 
@@ -80,14 +104,18 @@ class Projects extends Component {
           <div className="projects-grid">
             {/* Project 1 */}
             <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+              {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle> */}
+              <img
+            src="/img/guess.png"
+            alt="guessapp"
+            style={{height: '175px'}}
+             />
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              The Guessing Game utilizes the JavaScript Voice Recognition library.
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href="https://github.com/jere775/guess-app.git">GitHub</Button>
+                <Button colored href="https://sleepy-perlman-94403e.netlify.app">Live Demo</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -96,34 +124,37 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle> */}
+            <img
+            src="/img/music-navbar.png"
+            alt="music-navbar"
+            style={{height: '175px'}}
+             />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            Using HTML, CSS, and JS to create a animated hamburger style navigation bar.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/jere775/music-hamburger-js.git">GitHub</Button>
+              <Button colored href="https://adoring-hopper-8f6cac.netlify.app/">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
           {/* Project 3 */}
-          <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
+          {/* <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
-          </Card>
+          </Card> */}
 
   </div>
   </div>  
@@ -133,14 +164,19 @@ class Projects extends Component {
         <div><div className="projects-grid">
         {/* Project 1 */}
         <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+          {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle> */}
+          <img
+            src="/img/tic-tac.png"
+            alt="tic-tac-toe"
+            style={{height: '175px'}}
+             />
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          A Tic Tac Toe application was created to demonstrate proficient React hooks expertise.
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>Live Demo</Button>
+            <Button colored href="https://github.com/jere775/to-do-app.git">GitHub</Button>
+            {/* <Button colored>CodePen</Button> */}
+            <Button colored href="https://zen-hamilton-e4ff50.netlify.app/">Live Demo</Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
@@ -149,14 +185,19 @@ class Projects extends Component {
 
       {/* Project 2 */}
       <Card shadow={2} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+        {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle> */}
+        <img
+            src="/img/react-ecommerce.png"
+            alt="react-ecommerce"
+            style={{height: '175px'}}
+             />
         <CardText>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        A React Ecommerce Revision: Part 2 of my first Ecommerce.
         </CardText>
         <CardActions border>
-          <Button colored>GitHub</Button>
-          <Button colored>CodePen</Button>
-          <Button colored>Live Demo</Button>
+          <Button colored href="https://github.com/jere775/react-ecommerce.git">GitHub</Button>
+          {/* <Button colored >CodePen</Button> */}
+          <Button colored href="https://upbeat-hoover-34b60a.netlify.app">Live Demo</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
           <IconButton name="share" />
@@ -171,7 +212,7 @@ class Projects extends Component {
         </CardText>
         <CardActions border>
           <Button colored>GitHub</Button>
-          <Button colored>CodePen</Button>
+          {/* <Button colored>CodePen</Button> */}
           <Button colored>Live Demo</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
@@ -245,8 +286,8 @@ class Projects extends Component {
           <Tab> CSS/HTML</Tab>
           <Tab>JavaScript</Tab>
           <Tab>React</Tab>
-          <Tab>NodeJS</Tab>
-          <Tab>MySQL</Tab>
+          {/* <Tab>NodeJS</Tab>
+          <Tab>MySQL</Tab> */}
         </Tabs>
 
 
